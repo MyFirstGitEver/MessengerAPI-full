@@ -1,6 +1,9 @@
 # Giới thiệu
 
-Dự án sử dụng spring boot để tạo Rest API cho app client [MessengerLite](https://github.com/MyFirstGitEver/MessengerLite-full)(hỗ trợ trò chuyện trong thời gian thực).
+Dự án sử dụng framework Spring Boot để tạo Rest API cho app client [MessengerLite](https://github.com/MyFirstGitEver/MessengerLite-full)(hỗ trợ trò chuyện trong thời gian thực).
+
+[REST Api](https://en.wikipedia.org/wiki/Representational_state_transfer)  
+[Spring framework](https://vi.wikipedia.org/wiki/Spring_Framework)  
 
 # Cấu trúc project:
 * configuration: package chứa các thiết lập end-point gửi nhận tin nhắn cho WebSocket server/client.
