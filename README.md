@@ -14,4 +14,4 @@ Dự án sử dụng framework Spring Boot để tạo Rest API cho app client [
 
 # Diagram
 
-![diagram](https://user-images.githubusercontent.com/113078180/212550654-6921ca8b-cb52-4e93-ba45-0cba1bc5d50c.png)
+![test](https://user-images.githubusercontent.com/113078180/213191858-127fb220-2a55-4f02-afdb-fbf4e7f81cf9.png)
