@@ -165,7 +165,7 @@ public class MessageController
 	
 	@MessageMapping("sendMessage")
 	public void sendMessage(@Payload MessageEntity message)
-	{	
+	{
 		messageRepo.save(message);
 		template.convertAndSendToUser(message.getToId() + "", "/text", new MessageDTO(false, message));
 	}

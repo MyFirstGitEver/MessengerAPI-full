@@ -18,7 +18,7 @@ public class MessageEntity implements Comparable<MessageEntity>
 	@Column(name = "id")
 	private Integer id;
 	
-	private int type, toId, fromId, replyTo;
+	private int type, toId, fromId;
 	private boolean deleted, forwarded, isRead;
 	private String content;
 	@JsonFormat(timezone = "GMT+07:00")
@@ -35,24 +35,6 @@ public class MessageEntity implements Comparable<MessageEntity>
 		this.isRead = isRead;
 		this.content = content;
 		this.sentDate = sentDate;
-	}
-
-
-
-
-	public MessageEntity(int type, int toId, int fromId, int replyTo, 
-			boolean deleted, boolean forwarded, String content, Date date,
-			boolean isRead)
-	{
-		this.type = type;
-		this.toId = toId;
-		this.fromId = fromId;
-		this.replyTo = replyTo;
-		this.deleted = deleted;
-		this.forwarded = forwarded;
-		this.content = content;
-		this.sentDate = date;
-		this.isRead = isRead;
 	}
 
 	public Integer getId() {
@@ -85,14 +67,6 @@ public class MessageEntity implements Comparable<MessageEntity>
 
 	public void setFromId(int fromId) {
 		this.fromId = fromId;
-	}
-
-	public int getReplyTo() {
-		return replyTo;
-	}
-
-	public void setReplyTo(int replyTo) {
-		this.replyTo = replyTo;
 	}
 
 	public boolean getDeleted() {
