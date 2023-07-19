@@ -11,7 +11,3 @@ Dự án sử dụng framework Spring Boot để tạo Rest API cho app client [
 * repositories: package chứa các repository truy vấn database.
 * dtos: Các lớp đối tượng truyền/nhận thông tin giữa server và client
 * entities: Các lớp đối tượng đại diện cho bảng bên trong database
-
-# Diagram
-
-![test](https://user-images.githubusercontent.com/113078180/213191858-127fb220-2a55-4f02-afdb-fbf4e7f81cf9.png)
